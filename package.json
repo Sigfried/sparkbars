@@ -1,0 +1,28 @@
+{
+  "name": "sparkbars",
+  "version": "0.0.1",
+  "description": "Naked barchart, handles hover/highlight nicely, react-component",
+  "main": "sparkbars.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sigfried/sparkbars.git"
+  },
+  "keywords": [
+    "react-component",
+    "d3",
+    "react"
+  ],
+  "author": "Sigfried Gold",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sigfried/sparkbars/issues"
+  },
+  "homepage": "https://github.com/Sigfried/sparkbars",
+  "dependencies": {
+    "d3": "^3.5.12",
+    "lodash": "^3.10.1",
+    "react": "^0.14.6",
+  },
+  "devDependencies": {
+  }
+}
