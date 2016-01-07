@@ -1,6 +1,6 @@
 {
   "name": "sparkbars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Naked barchart, handles hover/highlight nicely, react-component",
   "main": "sparkbars.js",
   "repository": {
