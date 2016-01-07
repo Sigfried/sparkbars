@@ -2,7 +2,11 @@
   "name": "sparkbars",
   "version": "0.0.2",
   "description": "Naked barchart, handles hover/highlight nicely, react-component",
-  "main": "sparkbars.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "js": "babel --modules common ./SparkBars.js --out-dir dist",
+    "prepublish": "npm run js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Sigfried/sparkbars.git"
@@ -24,5 +28,6 @@
     "react": "^0.14.6"
   },
   "devDependencies": {
+    "babel": "^6.3.26"
   }
 }
